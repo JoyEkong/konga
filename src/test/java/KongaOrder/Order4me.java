@@ -26,8 +26,8 @@ public class Order4me {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.findElement(By.linkText("Login / Signup")).click();
-        driver.findElement(By.name("username")).sendKeys("joyekong123@gmail.com");
-        driver.findElement(By.id("password")).sendKeys("081joyekong4540");
+        driver.findElement(By.name("username")).sendKeys("xxxxx");
+        driver.findElement(By.id("password")).sendKeys("xxxxxxx");
         driver.findElement(By.xpath("//button[text()='Login']")).click();
 
         WebElement electronics = driver.findElement(By.linkText("Electronics"));
